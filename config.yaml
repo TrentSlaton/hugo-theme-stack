@@ -11,7 +11,7 @@ params:
     favicon:
 
     footer:
-        since:
+        since: 2023
         customText:
 
     dateFormat:
@@ -20,8 +20,8 @@ params:
 
     sidebar:
         compact: false
-        emoji:
-        subtitle:
+        emoji: 🎯
+        subtitle: Army guy. Programmer. Hobbyist. Thinker, Dreamer, Do-er.
         avatar:
             enabled: true
             local: true
@@ -30,7 +30,7 @@ params:
     article:
         math: false
         toc: true
-        readingTime: true
+        readingTime: false
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
@@ -117,10 +117,10 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: trentslaton
 
             # Available values: summary, summary_large_image
-            card: summary_large_image
+            card: summary
 
     defaultImage:
         opengraph:
@@ -140,3 +140,17 @@ params:
             enabled: true
         content:
             enabled: true
+
+menu:
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/TrentSlaton
+          params:
+              icon: brand-github
+
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com/trentslaton
+          params:
+              icon: brand-twitter
